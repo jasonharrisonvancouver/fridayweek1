@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9F8E817C21E9045C00D35B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E817B21E9045C00D35B79 /* main.m */; };
+		9F8E818421E9073F00D35B79 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E818321E9073F00D35B79 /* Person.m */; };
+		9F8E818721E9074B00D35B79 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E818621E9074B00D35B79 /* Student.m */; };
+		9F8E818E21E90FF100D35B79 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E818D21E90FF100D35B79 /* Father.m */; };
+		9F8E819121E915B000D35B79 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E819021E915B000D35B79 /* Teacher.m */; };
+		9F8E819421E9160D00D35B79 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E819321E9160D00D35B79 /* Robot.m */; };
+		9F8E819721E91A9400D35B79 /* Student+Study.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8E819621E91A9400D35B79 /* Student+Study.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,19 @@
 /* Begin PBXFileReference section */
 		9F8E817821E9045C00D35B79 /* FridayWeek1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FridayWeek1; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8E817B21E9045C00D35B79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8E818221E9073F00D35B79 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9F8E818321E9073F00D35B79 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9F8E818521E9074B00D35B79 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		9F8E818621E9074B00D35B79 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		9F8E818B21E90F6D00D35B79 /* ParentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentProtocol.h; sourceTree = "<group>"; };
+		9F8E818C21E90FF100D35B79 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		9F8E818D21E90FF100D35B79 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		9F8E818F21E915B000D35B79 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		9F8E819021E915B000D35B79 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		9F8E819221E9160D00D35B79 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		9F8E819321E9160D00D35B79 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		9F8E819521E91A9400D35B79 /* Student+Study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Study.h"; sourceTree = "<group>"; };
+		9F8E819621E91A9400D35B79 /* Student+Study.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Study.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +76,20 @@
 		9F8E817A21E9045C00D35B79 /* FridayWeek1 */ = {
 			isa = PBXGroup;
 			children = (
+				9F8E818B21E90F6D00D35B79 /* ParentProtocol.h */,
+				9F8E818C21E90FF100D35B79 /* Father.h */,
+				9F8E818D21E90FF100D35B79 /* Father.m */,
 				9F8E817B21E9045C00D35B79 /* main.m */,
+				9F8E818F21E915B000D35B79 /* Teacher.h */,
+				9F8E819221E9160D00D35B79 /* Robot.h */,
+				9F8E819321E9160D00D35B79 /* Robot.m */,
+				9F8E819021E915B000D35B79 /* Teacher.m */,
+				9F8E818221E9073F00D35B79 /* Person.h */,
+				9F8E818321E9073F00D35B79 /* Person.m */,
+				9F8E818521E9074B00D35B79 /* Student.h */,
+				9F8E819521E91A9400D35B79 /* Student+Study.h */,
+				9F8E819621E91A9400D35B79 /* Student+Study.m */,
+				9F8E818621E9074B00D35B79 /* Student.m */,
 			);
 			path = FridayWeek1;
 			sourceTree = "<group>";
@@ -118,7 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8E819421E9160D00D35B79 /* Robot.m in Sources */,
+				9F8E818421E9073F00D35B79 /* Person.m in Sources */,
+				9F8E818E21E90FF100D35B79 /* Father.m in Sources */,
 				9F8E817C21E9045C00D35B79 /* main.m in Sources */,
+				9F8E819121E915B000D35B79 /* Teacher.m in Sources */,
+				9F8E819721E91A9400D35B79 /* Student+Study.m in Sources */,
+				9F8E818721E9074B00D35B79 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
